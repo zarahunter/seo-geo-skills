@@ -4,12 +4,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-6f42c1.svg)](https://code.claude.com/docs/en/skills)
-[![Made by Edk8Agentic](https://img.shields.io/badge/by-Zara%20Hunter%20·%20Edk8Agentic-0a7.svg)](https://github.com/zarahunter)
+[![Made by Eduk8agentic](https://img.shields.io/badge/by-Zara%20Hunter%20·%20Eduk8agentic-0a7.svg)](https://github.com/zarahunter)
 [![MENA / Arabic ready](https://img.shields.io/badge/MENA%20%2F%20Arabic-ready-success.svg)](#-mena--arabic-playbook)
 
 A production-grade [Claude Code](https://code.claude.com) skill that teaches Claude how to make any page **discoverable, extractable, and citable** by AI answer engines — with a dedicated **MENA / Arabic** playbook most GEO guidance ignores.
 
-Built and maintained by **[Zara Hunter](https://github.com/zarahunter) — [Edk8Agentic](https://github.com/arabicaiagents)**, teaching agentic AI and Arabic AI agents.
+Built and maintained by **[Zara Hunter](https://github.com/zarahunter) — [Eduk8agentic](https://github.com/arabicaiagents)**, teaching agentic AI and Arabic AI agents.
 
 ---
 
@@ -34,7 +34,7 @@ In Claude Code:
 
 ```
 /plugin marketplace add zarahunter/seo-geo-skills
-/plugin install ai-seo@edk8agentic
+/plugin install ai-seo@eduk8agentic
 ```
 
 Then just ask naturally — the skill auto-activates on AI-SEO / GEO tasks. Or invoke it explicitly with `/ai-seo`.
@@ -110,15 +110,15 @@ Issues and pull requests are welcome — corrections, new verticals, fresh citat
 
 ## License
 
-Released under the **[MIT License](LICENSE)** — use, adapt, and build on it freely, including commercially. Copyright stays with Zara Hunter (Edk8Agentic).
+Released under the **[MIT License](LICENSE)** — use, adapt, and build on it freely, including commercially. Copyright stays with Zara Hunter (Eduk8agentic).
 
-Credit isn't required under MIT, but it's appreciated and helps others find the original: a mention of **Zara Hunter (Edk8Agentic)** and a link back to this repo.
+Credit isn't required under MIT, but it's appreciated and helps others find the original: a mention of **Zara Hunter (Eduk8agentic)** and a link back to this repo.
 
 ## About the author
 
-**Zara Hunter** builds and teaches **agentic AI and Arabic AI agents** under **Edk8Agentic**. If this skill helps you, a ⭐ on the repo and a share with your network is the best support — and the most honest way to help others discover it.
+**Zara Hunter** builds and teaches **agentic AI and Arabic AI agents** under **Eduk8agentic**. If this skill helps you, a ⭐ on the repo and a share with your network is the best support — and the most honest way to help others discover it.
 
 - GitHub: [@zarahunter](https://github.com/zarahunter)
-- Edk8Agentic / Arabic AI Agents: [@arabicaiagents](https://github.com/arabicaiagents)
+- Eduk8agentic / Arabic AI Agents: [@arabicaiagents](https://github.com/arabicaiagents)
 
 <sub>Educational resource. AI citation behavior changes fast; figures in the references are dated and marked perishable — verify before relying on them.</sub>
