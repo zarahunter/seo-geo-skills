@@ -2,14 +2,14 @@
 
 > Get your content **retrieved and cited as a source inside AI answers** — ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot, and Claude. Traditional SEO gets a page ranked. GEO gets a passage *cited*.
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-6f42c1.svg)](https://code.claude.com/docs/en/skills)
-[![Made by Eduk8Agentic](https://img.shields.io/badge/by-Zara%20Hunter%20·%20Eduk8Agentic-0a7.svg)](https://github.com/zarahunter)
+[![Made by Edk8Agentic](https://img.shields.io/badge/by-Zara%20Hunter%20·%20Edk8Agentic-0a7.svg)](https://github.com/zarahunter)
 [![MENA / Arabic ready](https://img.shields.io/badge/MENA%20%2F%20Arabic-ready-success.svg)](#-mena--arabic-playbook)
 
 A production-grade [Claude Code](https://code.claude.com) skill that teaches Claude how to make any page **discoverable, extractable, and citable** by AI answer engines — with a dedicated **MENA / Arabic** playbook most GEO guidance ignores.
 
-Built and maintained by **[Zara Hunter](https://github.com/zarahunter) — [Eduk8Agentic](https://github.com/arabicaiagents)**, teaching agentic AI and Arabic AI agents.
+Built and maintained by **[Zara Hunter](https://github.com/zarahunter) — [Edk8Agentic](https://github.com/arabicaiagents)**, teaching agentic AI and Arabic AI agents.
 
 ---
 
@@ -34,7 +34,7 @@ In Claude Code:
 
 ```
 /plugin marketplace add zarahunter/seo-geo-skills
-/plugin install ai-seo@eduk8agentic
+/plugin install ai-seo@edk8agentic
 ```
 
 Then just ask naturally — the skill auto-activates on AI-SEO / GEO tasks. Or invoke it explicitly with `/ai-seo`.
@@ -96,7 +96,7 @@ seo-geo-skills/
 │               ├── SKILL.md       # the skill entry point
 │               └── references/    # the reference library
 ├── README.md
-├── LICENSE                        # CC BY 4.0
+├── LICENSE                        # MIT
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 └── CHANGELOG.md
@@ -108,17 +108,17 @@ seo-geo-skills/
 
 Issues and pull requests are welcome — corrections, new verticals, fresh citation research (dated, please), and additional language playbooks especially. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## License & attribution
+## License
 
-Licensed under **[CC BY 4.0](LICENSE)**. You may use, adapt, and build on this freely, including commercially — **as long as you credit the author and link back**:
+Released under the **[MIT License](LICENSE)** — use, adapt, and build on it freely, including commercially. Copyright stays with Zara Hunter (Edk8Agentic).
 
-> AI SEO / GEO skill by **Zara Hunter (Eduk8Agentic)**, https://github.com/zarahunter/seo-geo-skills, licensed under CC BY 4.0.
+Credit isn't required under MIT, but it's appreciated and helps others find the original: a mention of **Zara Hunter (Edk8Agentic)** and a link back to this repo.
 
 ## About the author
 
-**Zara Hunter** builds and teaches **agentic AI and Arabic AI agents** under **Eduk8Agentic**. If this skill helps you, a ⭐ on the repo and a share with your network is the best support — and the most honest way to help others discover it.
+**Zara Hunter** builds and teaches **agentic AI and Arabic AI agents** under **Edk8Agentic**. If this skill helps you, a ⭐ on the repo and a share with your network is the best support — and the most honest way to help others discover it.
 
 - GitHub: [@zarahunter](https://github.com/zarahunter)
-- Eduk8Agentic / Arabic AI Agents: [@arabicaiagents](https://github.com/arabicaiagents)
+- Edk8Agentic / Arabic AI Agents: [@arabicaiagents](https://github.com/arabicaiagents)
 
 <sub>Educational resource. AI citation behavior changes fast; figures in the references are dated and marked perishable — verify before relying on them.</sub>

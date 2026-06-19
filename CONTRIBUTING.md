@@ -20,4 +20,4 @@ Thanks for helping improve the AI SEO / GEO skill. Issues and pull requests are 
 1. Fork, branch, make your change. If you edit the skill, keep the `references/` cross-links valid.
 2. Open a PR describing **what** changed and **why**, with sources for any new figures.
 
-By contributing, you agree your contributions are licensed under [CC BY 4.0](LICENSE), the same as the project.
+By contributing, you agree your contributions are licensed under the [MIT License](LICENSE), the same as the project.
