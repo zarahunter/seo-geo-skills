@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-seo",
+  "description": "AI SEO / GEO: get your content retrieved and cited as a source inside AI answers (ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot, Claude). Includes audits, page optimization, AI-first content, entity presence, monitoring, hard cases, and a MENA / Arabic playbook.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Zara Hunter (Eduk8Agentic)"
+  },
+  "homepage": "https://github.com/zarahunter/seo-geo-skills",
+  "repository": "https://github.com/zarahunter/seo-geo-skills",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "seo",
+    "geo",
+    "generative-engine-optimization",
+    "answer-engine-optimization",
+    "ai-seo",
+    "llmo",
+    "ai-overviews",
+    "chatgpt",
+    "perplexity",
+    "arabic",
+    "mena",
+    "claude-code",
+    "skill"
+  ]
+}

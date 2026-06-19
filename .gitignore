@@ -1,0 +1,11 @@
+# Local working / scratch files — not part of the published skill
+_check/
+CLAUDE.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*~

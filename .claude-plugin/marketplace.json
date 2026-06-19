@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "eduk8agentic",
+  "owner": {
+    "name": "Zara Hunter"
+  },
+  "metadata": {
+    "description": "AI SEO / GEO skills for Claude Code by Zara Hunter (Eduk8Agentic) — helping teams, including Arabic / MENA builders, get cited by AI answer engines.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-seo",
+      "source": "./plugins/ai-seo",
+      "description": "Optimize content to get retrieved and cited as a source inside AI answers (ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot, Claude). Covers AI-visibility audits, page optimization, AI-first content, entity presence, monitoring, hard cases, and a dedicated MENA / Arabic playbook."
+    }
+  ]
+}
