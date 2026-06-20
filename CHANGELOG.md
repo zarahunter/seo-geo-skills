@@ -2,6 +2,14 @@
 
 All notable changes to the AI SEO / GEO skill are documented here.
 
+## [1.1.0] — 2026-06-20
+
+Added the `on-page-seo` skill and packaged both skills together.
+
+- New **`on-page-seo`** skill: search-intent matching, keyword selection and placement, title tags, meta descriptions, URL slugs, heading hierarchy, internal linking, alt text, an on-page checklist, and copy-paste templates.
+- **Two-pass method**: `on-page-seo` (ranking) and `ai-seo` (GEO/citation) now cross-reference each other so a single "fully optimize this" request runs both.
+- Plugin renamed `ai-seo` → **`seo-geo`** to host both skills under one install (`seo-geo@eduk8agentic`).
+
 ## [1.0.0] — 2026-06-19
 
 Initial public release.

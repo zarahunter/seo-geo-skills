@@ -1,13 +1,13 @@
-# AI SEO / GEO Skill for Claude Code
+# SEO + GEO Skills for Claude Code
 
-> Get your content **retrieved and cited as a source inside AI answers** — ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot, and Claude. Traditional SEO gets a page ranked. GEO gets a passage *cited*.
+> Two skills that fully optimize a page: **rank it** in classic search *and* get it **cited** inside AI answers — ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot, and Claude. Traditional SEO gets a page ranked. GEO gets a passage *cited*. This does both.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-6f42c1.svg)](https://code.claude.com/docs/en/skills)
 [![Made by Eduk8agentic](https://img.shields.io/badge/by-Zara%20Hunter%20·%20Eduk8agentic-0a7.svg)](https://github.com/zarahunter)
 [![MENA / Arabic ready](https://img.shields.io/badge/MENA%20%2F%20Arabic-ready-success.svg)](#-mena--arabic-playbook)
 
-A production-grade [Claude Code](https://code.claude.com) skill that teaches Claude how to make any page **discoverable, extractable, and citable** by AI answer engines — with a dedicated **MENA / Arabic** playbook most GEO guidance ignores.
+Two production-grade [Claude Code](https://code.claude.com) skills that work together to fully optimize a page: **`on-page-seo`** makes it *rank* in classic Google / Bing search, and **`ai-seo` (GEO)** makes it *retrieved and cited* by AI answer engines — with a dedicated **MENA / Arabic** playbook most GEO guidance ignores.
 
 Built and maintained by **[Zara Hunter](https://github.com/zarahunter) — [Eduk8agentic](https://github.com/arabicaiagents)**, teaching agentic AI and Arabic AI agents.
 
@@ -34,19 +34,19 @@ In Claude Code:
 
 ```
 /plugin marketplace add zarahunter/seo-geo-skills
-/plugin install ai-seo@eduk8agentic
+/plugin install seo-geo@eduk8agentic
 ```
 
-Then just ask naturally — the skill auto-activates on AI-SEO / GEO tasks. Or invoke it explicitly with `/ai-seo`.
+Then just ask naturally — the right skill auto-activates on SEO or GEO tasks. You can also invoke them explicitly with `/seo-geo:on-page-seo` or `/seo-geo:ai-seo`.
 
 ### Option B — Manual install
 
 ```bash
 git clone https://github.com/zarahunter/seo-geo-skills.git
-cp -R seo-geo-skills/plugins/ai-seo/skills/ai-seo ~/.claude/skills/ai-seo
+cp -R seo-geo-skills/plugins/seo-geo/skills/* ~/.claude/skills/
 ```
 
-Restart Claude Code (or run `/reload-plugins`). The skill now lives at `~/.claude/skills/ai-seo/`.
+Restart Claude Code (or run `/reload-plugins`). Both skills now live under `~/.claude/skills/`.
 
 ### Try it
 
@@ -60,7 +60,15 @@ Restart Claude Code (or run `/reload-plugins`). The skill now lives at `~/.claud
 
 ## What's inside
 
-The skill routes Claude through six tasks and seven reference files.
+Two skills, designed to run as one optimization pass.
+
+### `on-page-seo` — rank in classic search
+
+Search-intent matching, primary/supporting keyword selection and placement, title tags, meta descriptions, URL slugs, heading hierarchy, internal linking, and alt text — plus an on-page checklist and copy-paste templates. Names the hand-offs for technical SEO, schema, and backlinks.
+
+### `ai-seo` (GEO) — get cited by AI answers
+
+Six tasks and a full reference library:
 
 | Task | What Claude does |
 | --- | --- |
@@ -71,7 +79,11 @@ The skill routes Claude through six tasks and seven reference files.
 | **Entity presence** | Consistent-facts baseline, Wikidata/Wikipedia, third-party source map (parametric memory) |
 | **MENA / Arabic** | Dialect testing, multilingual entity work, Arabic citation density, regional source priority |
 
-Reference library: `content-patterns` · `platform-factors` · `measurement` · `entity-presence` · `hard-cases` · `mena-arabic` · `research-stats` · plus a full **worked example** (audit → before/after rewrite) for calibration.
+Reference library: `content-patterns` · `platform-factors` · `measurement` · `entity-presence` · `hard-cases` · `mena-arabic` · `research-stats` · plus a full **worked example** (audit → before/after rewrite).
+
+### The two-pass method
+
+Ask for full optimization and Claude runs the **SEO pass** (intent, keywords, title/meta, headings, links) → then the **GEO pass** (extractable, citable, promo-tone stripped). Where they conflict, the GEO "write naturally" rule wins on the body copy.
 
 ---
 
@@ -88,13 +100,16 @@ seo-geo-skills/
 ├── .claude-plugin/
 │   └── marketplace.json          # makes this repo a Claude Code marketplace
 ├── plugins/
-│   └── ai-seo/
+│   └── seo-geo/
 │       ├── .claude-plugin/
 │       │   └── plugin.json
 │       └── skills/
-│           └── ai-seo/
-│               ├── SKILL.md       # the skill entry point
-│               └── references/    # the reference library
+│           ├── on-page-seo/       # rank in classic search
+│           │   ├── SKILL.md
+│           │   └── references/
+│           └── ai-seo/            # get cited by AI answers
+│               ├── SKILL.md
+│               └── references/
 ├── README.md
 ├── LICENSE                        # MIT
 ├── CONTRIBUTING.md

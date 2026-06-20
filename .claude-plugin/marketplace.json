@@ -5,14 +5,14 @@
     "name": "Zara Hunter"
   },
   "metadata": {
-    "description": "AI SEO / GEO skills for Claude Code by Zara Hunter (Eduk8agentic) — helping teams, including Arabic / MENA builders, get cited by AI answer engines.",
-    "version": "1.0.0"
+    "description": "SEO + GEO skills for Claude Code by Zara Hunter (Eduk8agentic) — rank in classic search and get cited by AI answer engines, with a dedicated Arabic / MENA playbook.",
+    "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "ai-seo",
-      "source": "./plugins/ai-seo",
-      "description": "Optimize content to get retrieved and cited as a source inside AI answers (ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot, Claude). Covers AI-visibility audits, page optimization, AI-first content, entity presence, monitoring, hard cases, and a dedicated MENA / Arabic playbook."
+      "name": "seo-geo",
+      "source": "./plugins/seo-geo",
+      "description": "Two skills that work together for full page optimization. on-page-seo: rank in classic Google / Bing (search intent, keyword placement, title tags, meta descriptions, heading hierarchy, internal links, alt text). ai-seo (GEO): get retrieved and cited inside AI answers (ChatGPT, Perplexity, AI Overviews, Gemini, Copilot, Claude) — audits, AI-first content, entity presence, monitoring, hard cases, and a dedicated MENA / Arabic playbook."
     }
   ]
 }

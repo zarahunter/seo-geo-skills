@@ -17,6 +17,8 @@ This skill owns the page and the brand's entity footprint: extractability, citab
 | User wants | Use |
 | --- | --- |
 | Audit AI visibility, optimize a page, write AI-first content, build entity presence | **This skill** |
+| Rank the page in classic Google / Bing results (intent, keywords, title, meta, headings) | `on-page-seo` |
+| Full optimization — rank **and** get cited | **Both** (`on-page-seo` pass, then this skill) |
 | Implement the actual schema/JSON-LD | `schema-markup` |
 | Track mentions and share of voice across many AI platforms | `ai-visibility-monitoring` |
 | Plant brand mentions in Reddit, Wikipedia, forums, review sites | `llm-seeding` |
@@ -26,6 +28,8 @@ This skill owns the page and the brand's entity footprint: extractability, citab
 | Founder authority, LinkedIn presence | `thought-leadership`, `linkedin-content` |
 
 If the user asks for several of these at once, do the on-page and entity work here and name the hand-offs as next steps rather than trying to do everything.
+
+**Working with `on-page-seo` (the two-pass method).** This skill makes a page *cited* in AI answers; `on-page-seo` makes the same page *rank* in classic search. For full optimization, run the **SEO pass first** (`on-page-seo`: intent match, keyword placement, title, meta, URL, heading hierarchy, internal links) to set the structure, then the **GEO pass** (this skill: front-loaded answer, extractable blocks, citability, strip promotional tone) to refine the prose. They mostly reinforce each other; where they tension — classic SEO once tolerated keyword repetition — **this skill's anti-stuffing, write-naturally rule wins on the body copy.**
 
 ## Before starting
 
