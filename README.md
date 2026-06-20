@@ -134,6 +134,7 @@ Credit isn't required under MIT, but it's appreciated and helps others find the 
 **Zara Hunter** builds and teaches **agentic AI and Arabic AI agents** under **Eduk8agentic**. If this skill helps you, a ⭐ on the repo and a share with your network is the best support — and the most honest way to help others discover it.
 
 - GitHub: [@zarahunter](https://github.com/zarahunter)
+- LinkedIn: [Zara Hunter](https://www.linkedin.com/in/zarahunter/)
 - Eduk8agentic / Arabic AI Agents: [@arabicaiagents](https://github.com/arabicaiagents)
 
 <sub>Educational resource. AI citation behavior changes fast; figures in the references are dated and marked perishable — verify before relying on them.</sub>
