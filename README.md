@@ -4,12 +4,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-6f42c1.svg)](https://code.claude.com/docs/en/skills)
-[![Made by Eduk8agentic](https://img.shields.io/badge/by-Zara%20Hunter%20·%20Eduk8agentic-0a7.svg)](https://github.com/zarahunter)
+[![Made by Eduk8agentic](https://img.shields.io/badge/by-Zara%20Hunter%20·%20Eduk8agentic-0a7.svg)](https://www.eduk8agentic.com/)
 [![MENA / Arabic ready](https://img.shields.io/badge/MENA%20%2F%20Arabic-ready-success.svg)](#-mena--arabic-playbook)
 
 Two production-grade [Claude Code](https://code.claude.com) skills that work together to fully optimize a page: **`on-page-seo`** makes it *rank* in classic Google / Bing search, and **`ai-seo` (GEO)** makes it *retrieved and cited* by AI answer engines — with a dedicated **MENA / Arabic** playbook most GEO guidance ignores.
 
-Built and maintained by **[Zara Hunter](https://github.com/zarahunter) — [Eduk8agentic](https://github.com/arabicaiagents)**, teaching agentic AI and Arabic AI agents.
+Built and maintained by **[Zara Hunter](https://github.com/zarahunter) — [Eduk8agentic](https://www.eduk8agentic.com/)**, teaching agentic AI and Arabic AI agents.
 
 ---
 
@@ -133,9 +133,10 @@ Credit isn't required under MIT, but it's appreciated and helps others find the 
 
 **Zara Hunter** builds and teaches **agentic AI and Arabic AI agents** under **Eduk8agentic**. If this skill helps you, a ⭐ on the repo and a share with your network is the best support — and the most honest way to help others discover it.
 
+- Website: [eduk8agentic.com](https://www.eduk8agentic.com/)
 - GitHub: [@zarahunter](https://github.com/zarahunter)
 - LinkedIn: [Zara Hunter](https://www.linkedin.com/in/zarahunter/)
 - Community: [Arabic AI Agents Academy](https://www.skool.com/arabic-ai-agents-academy) (Skool)
-- Eduk8agentic / Arabic AI Agents: [@arabicaiagents](https://github.com/arabicaiagents)
+- Arabic AI Agents on GitHub: [@arabicaiagents](https://github.com/arabicaiagents)
 
 <sub>Educational resource. AI citation behavior changes fast; figures in the references are dated and marked perishable — verify before relying on them.</sub>
