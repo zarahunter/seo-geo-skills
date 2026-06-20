@@ -37,6 +37,8 @@ If `.claude/product-marketing-context.md` exists, read it and skip questions it 
 
 Ask at most one or two questions; infer the rest and state assumptions inline.
 
+If you cannot see live search results or keyword data (no search access, no connected SEO tool), do not present guessed intent, keywords, or competitors as validated. Say what you are assuming, or ask the user to paste the current top-ranking results for the query — then work from those.
+
 ## Core model: read this before optimizing anything
 
 **1. One page, one primary query.** A page that tries to rank for everything ranks for nothing. Pick one primary keyword/query and a small set of supporting terms. Everything on the page serves that.
@@ -46,7 +48,7 @@ Ask at most one or two questions; infer the rest and state assumptions inline.
    - *Commercial* ("best X", "X vs Y", "X review") → comparison, listicle, evaluation.
    - *Transactional* ("buy X", "X pricing", "X signup") → product/pricing/landing page.
    - *Navigational* ("[brand] login") → the specific destination page.
-   A page whose format mismatches intent (a sales page for an informational query) will not rank no matter how clean the tags are. Confirm the intent by looking at what already ranks for the query.
+   A page whose format mismatches intent (a sales page for an informational query) will not rank no matter how clean the tags are. Confirm the intent by looking at what already ranks for the query. Many high-value queries are **hybrid** — "how to choose X" or "best X for Y" are informational and commercial at once, and the page that ranks is usually a guide that *contains* a comparison block. When the SERP shows mixed formats, build the dominant format and fold in a block serving the secondary intent.
 
 **3. Keywords are placed, not stuffed.** Search engines reward a keyword appearing in the right *positions* (title, H1, early body, a subheading, URL, alt text) far more than the same keyword repeated many times. Repetition past natural use is **over-optimization** and can hurt. Write for a human first.
 
@@ -96,14 +98,23 @@ Pick the format from the intent (Core model #2), then build it:
 
 Then run Task 1's checklist on your own draft before shipping.
 
-## Working with ai-seo (the two-pass method)
+## Full optimization: the two-pass handoff contract
 
-On-page SEO gets the page **ranked**; `ai-seo` (GEO) gets it **cited** in AI answers. Both operate on the same page and mostly reinforce each other — good headings, clear structure, and intent match help both. For full optimization:
+On-page SEO gets the page **ranked**; `ai-seo` (GEO) gets it **cited** in AI answers. They operate on the same page and mostly reinforce each other. When you do both, follow this contract so the passes don't fight or duplicate work:
 
-1. **SEO pass (this skill):** intent match, primary/supporting keywords and placement, title tag, meta description, URL, heading hierarchy, internal links, alt text.
-2. **GEO pass (`ai-seo`):** front-load a self-contained answer, convert prose to extractable blocks (tables, steps, FAQ), add sourced statistics and a dated author line, and **strip promotional tone**.
+1. **Decide once, carry forward.** The SEO pass fixes the **primary query, search intent, and title tag**. The GEO pass inherits them — it does not re-decide intent or keyword. State them explicitly so they pass forward.
+2. **Structure in the SEO pass, prose in the GEO pass.** In the SEO pass, lock the heading outline and the structural keyword positions (title, H1, URL, one H2, alt). Draft the headings — but **defer writing the lead and body prose to the GEO pass**, or you write the lead once for SEO and rewrite it for GEO.
+3. **Resolve field by field** (where the two skills' rules actually meet):
 
-**Where they tension, GEO wins on the body copy.** Classic SEO once tolerated some keyword repetition; GEO penalizes anything that reads as stuffing or promotion. So: place keywords in the structural positions (title, headings, URL, alt) per this skill, but write the actual passages naturally and extractably per `ai-seo`. Do the SEO pass first (it sets structure), then the GEO pass (it refines the prose).
+| Field | Rule | Promotional tone? |
+| --- | --- | --- |
+| Title tag | Primary keyword near the front + benefit + brand | OK — it is a SERP click target, not an extracted answer |
+| Meta description | Compelling, includes the query naturally | OK — SERP snippet, not extracted by engines |
+| URL slug | Short, keyword, hyphenated | n/a |
+| H1 | The bare query, mirrors the prompt | No |
+| Lead + body | Natural, self-contained, extractable | **No — GEO's anti-stuffing / anti-promo rule wins** |
+
+**Order:** SEO pass first (intent, title/meta/URL, heading structure, keyword positions) → GEO pass (`ai-seo`: writes the lead and body as front-loaded, extractable, promo-free prose; adds sourced stats, FAQ, dated author). Hand schema to `schema-markup`.
 
 ## Guardrails: on-page own-goals
 
@@ -114,6 +125,7 @@ On-page SEO gets the page **ranked**; `ai-seo` (GEO) gets it **cited** in AI ans
 - **Generic anchor text** ("click here", "read more") wastes internal-link value; describe the destination.
 - **Changing a live URL without a 301 redirect** loses ranking equity; always redirect.
 - **Writing for the engine, not the reader.** If it reads badly to a human, it will not hold rankings.
+- **Keyword cannibalization.** Before targeting a query, check the site is not already ranking another page for it. If it is, consolidate the pages or differentiate their intent rather than competing with yourself.
 
 ## References
 

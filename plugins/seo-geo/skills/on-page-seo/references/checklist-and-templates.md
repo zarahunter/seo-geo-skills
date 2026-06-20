@@ -19,6 +19,8 @@ Run the checklist against any target page; each failed row is a ranking gap. The
 | Internal links with descriptive anchor text | Distributes authority and context |
 | Images have descriptive filenames and alt text | Accessibility + image search + on-page context |
 | Content depth matches what ranks for the query | Thin content loses to comprehensive intent-matched content |
+| Visible "last updated" date, content kept current | Freshness is a ranking signal for many queries (and helps AI citation) |
+| A concise answer block / question H2s for snippet & PAA targeting | Wins featured snippets and People-Also-Ask slots (overlaps the GEO front-loaded answer) |
 | No keyword stuffing / exact-match repetition | Over-optimization can be penalized |
 | Reads well to a human | Poor readability does not hold rankings |
 
@@ -31,7 +33,7 @@ Run the checklist against any target page; each failed row is a ranking gap. The
 ```
 
 - Primary keyword as close to the front as reads naturally.
-- Target ~50–60 characters so it does not truncate.
+- Target ~50–60 characters as a rule of thumb. Google truncates by *pixel width* (~600px), not character count, so wide words (lots of capitals/Ms/Ws) truncate sooner — check the result, don't just count characters.
 - Unique on the site; compelling, not keyword-jammed.
 - Example: `On-Page SEO Checklist — 15 Fixes That Move Rankings | Acme`
 

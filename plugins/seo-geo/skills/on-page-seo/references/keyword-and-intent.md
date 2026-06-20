@@ -21,6 +21,10 @@ Intent decides the page's *format*; keywords decide its *wording and placement*.
 
 **Confirm intent by looking at what already ranks.** Search the query and note the format of the top results. If they are all comparisons and you are writing a sales page, your format is wrong — fix that before any keyword work. The SERP is the answer key for intent.
 
+**Hybrid intent is common.** "How to choose X", "best X for Y", and "X for [segment]" are informational and commercial at once; the page that ranks is usually a guide *containing* a comparison block. When the top results are a mix of guides and listicles, build the dominant format and fold in a block for the secondary intent rather than forcing one bucket.
+
+**Targeting SERP features (featured snippet, People Also Ask).** To win the snippet and PAA boxes, answer the query directly in a concise 40–60 word block right under the relevant heading, and phrase key H2s as the real questions people ask. This is the same move as the GEO front-loaded answer — one block earns both the snippet and AI citation.
+
 ## Choosing the primary keyword
 
 - **One primary per page.** It should describe the page's single core topic and match a real query people search.
