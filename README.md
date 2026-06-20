@@ -135,6 +135,7 @@ Credit isn't required under MIT, but it's appreciated and helps others find the 
 
 - GitHub: [@zarahunter](https://github.com/zarahunter)
 - LinkedIn: [Zara Hunter](https://www.linkedin.com/in/zarahunter/)
+- Community: [Arabic AI Agents Academy](https://www.skool.com/arabic-ai-agents-academy) (Skool)
 - Eduk8agentic / Arabic AI Agents: [@arabicaiagents](https://github.com/arabicaiagents)
 
 <sub>Educational resource. AI citation behavior changes fast; figures in the references are dated and marked perishable — verify before relying on them.</sub>
